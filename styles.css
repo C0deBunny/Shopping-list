@@ -1,0 +1,56 @@
+body {
+	background-color: #1e2124;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	background-color: #36393e;
+	border: 5px solid #282b30;
+	padding: 30px;
+}
+
+.inputLine {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.title {
+	color: white;
+	font-size: 50px;
+	margin: 10px;
+}
+
+.entryText {
+	color: white;
+	font-size: 30px;
+}
+
+.inputWindow {
+	height: 40px;
+	background-color: #424549;
+	color: white;
+	font-size: 20px;
+	border-radius: 10px;
+}
+
+.addItem {
+	height: 45px;
+	background-color: #282b30;
+	border-radius: 10px;
+	color: white;
+}
+
+.list {
+	font-size: 30px;
+	color: white;
+	font-family: cursive;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
